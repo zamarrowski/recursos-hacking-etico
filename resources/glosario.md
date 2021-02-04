@@ -34,3 +34,5 @@
 30. **Troyano**: malware que nos permite tomar el control del equipo
 31. **Virus**: malware que se adhiere a un fichero o programa y que necesita la intervención humana para propagarse, es decir, que le pasemos ese fichero a otro ordenador para poder infectarlo
 32. **Gusano**: es básicamente lo mismo pero no necesita la intervención humana para propagarse a otros ordenadores
+
+[Volver al inicio](./../README.md)
