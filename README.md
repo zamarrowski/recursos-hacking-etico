@@ -2,4 +2,4 @@
 
 ## Indice
 
-1. [Glosario](./resouces/glosario.md)
+1. [Glosario](./resources/glosario.md)
