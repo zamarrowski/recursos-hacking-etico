@@ -34,5 +34,10 @@
 30. **Troyano**: malware que nos permite tomar el control del equipo
 31. **Virus**: malware que se adhiere a un fichero o programa y que necesita la intervención humana para propagarse, es decir, que le pasemos ese fichero a otro ordenador para poder infectarlo
 32. **Gusano**: es básicamente lo mismo pero no necesita la intervención humana para propagarse a otros ordenadores
+33. **Seguridad integral**: se compone de seguridad física, seguridad digital y seguridad humana
+34. **Test de intrusión de caja negra**: cuando el hacker desconoce cualquier información relevante al sistema que se quiere testear
+34. **Test de intrusión de caja negra Post Autenticación**: cuando el hacker desconoce cualquier información relevante al sistema que se quiere testear pero tiene credenciales de acceso para probar la parte privada
+35. **Test de intrusión de caja gris**: El hacker tiene conocimiento parcial del activo a auditar
+35. **Test de intrusión de caja blanca**: El hacker tiene conocimiento total del activo a auditar
 
 [Volver al inicio](./../README.md)
