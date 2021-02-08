@@ -9,3 +9,4 @@
 5. ¿Cómo ser anónimo en Internet:
     1. [Conceptos básicos](./resources/anonimato/conceptos.md)
     2. [Instalando TOR en Kali](./resources/anonimato/instalarTor.md)
+    3. [Proxies](./resources/anonimato/proxies.md)
