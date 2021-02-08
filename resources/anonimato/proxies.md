@@ -149,7 +149,7 @@ Una de las páginas más populares para encontrar proxies gratuitos es https://s
 
 Para usarlo simplemente tenemos que llamar a proxychains delante del comando que queramos ejecutar. En la imagen que vemos a continuación vemos como se hace un curl para saber cual es la IP y nos devuelve nuestra IP para después llamarlo con proxychains y teniendo levantador Tor, lo usa como proxy y por eso nos devuelve otra IP. Eso quiere decir que está funcionando correctamente y que está pasando por el proxy:
 
-![proxyChainsUse](./../../img/proxyChainsUse.png)
+![proxyChainsUse](./../../img/proxychainsUse.png)
 
 Para usarlo con otro proxy o encadenar varios vale con coger cualquier proxy de la página web free-proxy y editar el archivo de configuración. Lo primero que vamos a hacer es mandar el tráfico por la web Tor para después salir por un proxy http público. La configuración quedaría así:
 
