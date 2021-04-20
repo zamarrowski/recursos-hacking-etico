@@ -39,5 +39,6 @@
 34. **Test de intrusión de caja negra Post Autenticación**: cuando el hacker desconoce cualquier información relevante al sistema que se quiere testear pero tiene credenciales de acceso para probar la parte privada
 35. **Test de intrusión de caja gris**: El hacker tiene conocimiento parcial del activo a auditar
 35. **Test de intrusión de caja blanca**: El hacker tiene conocimiento total del activo a auditar
+37. **Protocolo**: es un conjunto de reglas o convenciones que dicen como tiene que ser la comunicación entre dos sistemas.
 
 [Volver al inicio](./../README.md)
