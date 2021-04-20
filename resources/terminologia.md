@@ -1,6 +1,6 @@
 # Recursos de Hacking Ético
 
-## 1. Glosario
+## 1. Terminología
 
 1. **Navegación anónima**: cuando realizamos una navegación por Internet pero usamos distintos mecanismos para que no se nos pueda identificar en las acciones que realizamos.
 2. **Hacktivista**: persona que usa técnicas de hacking, sobre todo, con intenciones políticas a modo de protesta
