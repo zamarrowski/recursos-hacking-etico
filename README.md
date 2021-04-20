@@ -10,3 +10,7 @@
     1. [Conceptos básicos](./resources/anonimato/conceptos.md)
     2. [Instalando TOR en Kali](./resources/anonimato/instalarTor.md)
     3. [Proxies](./resources/anonimato/proxies.md)
+    4. [Cambiando la MAC](./resources/anonimato/mac.md)
+    5. [VPS que aceptan pago con bitcoins](./resources/anonimato/vps.md)
+6. Obteniendo información
+    1. [Whois y host](./resources/obteniendoInfo/whois.md)

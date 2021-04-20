@@ -161,4 +161,20 @@ Y si nos fijamos en los logs vemos como está pasando primero por Tor y después
 
 Con esto conseguiríamos un nivel de anonimato bastante alto y es bastante sencillo de utilizar
 
+### Plugin para Firefox
+
+Existe varios plugins para el navegador que nos permiten de una manera más sencilla el indicar si queremos usar un proxy u otro. Esto nos ahorra tener que ir a las preferencias del navegador y estar cambiandolo a mano. Uno de los más famosos es FoxyProxy y lo podemos encontrar en el buscador de addons de Firefox:
+
+![firefoxyproxyaddon](./../../img/firefoxyproxy.png)
+
+Una vez que lo instalamos nos saldrá arriba a la derecha el icono del addon y podemos clickar en options para poder añadir un nuevo proxy. En mi caso voy a añadir un proxy para que salga por Tor:
+
+![foxyproxytor](./../../img/foxyproxytor.png)
+
+Después para indicarle que lo queremos utilizar si clickamos en el icono del addon podemos cambiar entre los que tenemos creados y automáticamente nos cambiará de proxy:
+
+![foxyproxychange](./../../img/foxyproxychange.png)
+
+
+
 [Volver al inicio](./../../README.md)
