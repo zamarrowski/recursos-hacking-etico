@@ -7,6 +7,7 @@
 3. [Metodologías de seguridad](./resources/metodologias.md)
 4. Conceptos básicos de redes:
     1. [Modelos de comunicación](./resources/redes/modelos.md)
+    2. [Topologías](./resources/redes/topologias.md)
 5. [Principales dispositivos de seguridad](./resources/dispositivosDeSeguridad.md)
 6. [Principales distros de Hacking Ético y distros vulnerables](./resources/distros.md)
 7. ¿Cómo ser anónimo en Internet?
