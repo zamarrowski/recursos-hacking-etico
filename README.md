@@ -21,3 +21,8 @@
     5. [VPS que aceptan pago con bitcoins](./resources/anonimato/vps.md)
 8. Obteniendo información
     1. [Whois y host](./resources/obteniendoInfo/whois.md)
+    2. [Social Networking](./resources/obteniendoInfo/socialnetworking.md)
+    3. [Google Hacking](./resources/obteniendoInformacion/googleHacking.md)
+9. Escaneando redes
+    1. [Encontrar máquinas en una red](./resources/escaneoRedes/pingsweeps.md)
+    2. [Escaneo de puertos](./resources/escaneoRedes/portScanning.md)
