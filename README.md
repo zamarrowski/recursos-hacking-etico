@@ -10,7 +10,7 @@
     2. [Topologías](./resources/redes/topologias.md)
 5. Conceptos básicos de seguridad:
     1. [La tríada](./resources/seguridad/triada.md)
-    2. [Defense in Depth y Defense in Breadth](./resouces/seguridad/defense.md)
+    2. [Defense in Depth y Defense in Breadth](./resources/seguridad/defense.md)
 5. [Principales dispositivos de seguridad](./resources/dispositivosDeSeguridad.md)
 6. [Principales distros de Hacking Ético y distros vulnerables](./resources/distros.md)
 7. ¿Cómo ser anónimo en Internet?
