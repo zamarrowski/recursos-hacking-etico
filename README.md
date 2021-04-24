@@ -36,3 +36,4 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
     2. [Escaneo de puertos](./resources/escaneoRedes/portScanning.md)
     3. [Escaneo de vulnerabilidades](./resources/escaneoRedes/vulnerabilidades.md)
     4. [Técnicas de evasión](./resources/escaneoRedes/evasion.md)
+10. [Enumeración web](./resources/enumeracion.md)
