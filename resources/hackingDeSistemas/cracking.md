@@ -113,4 +113,15 @@ service:service:1002:1002:,,,:/home/service:/bin/bash
 
 Si nos fijamos ahí tenemos 6 contraseñas que ha conseguido descifrar John y podemos ver que está la de msfadmin que es el usuario que viene por defecto en la máquina. También hay otras que pueden ser interesantes como la de postgresql para poder acceder a la base de datos.
 
+### Usar rainbow tables
+
+Usar John the Ripper realmente es muy costoso ya que por cada contraseña que se prueba tiene que generar un hash y ver si es igual que el de la contraseña que hay. El coste de procesamiento es muy alto y podría tardar muchísimo tiempo.
+Para esto hay una solución que aunque no es tan costoso en cuanto a procesamiento si lo es en cuanto a almacenamiento y se llaman rainbow tables o tabla arco iris en castellano.
+Una tabla arco iris es un enorme repositorio de hashes con contraseñas ya cifradas. De esta forma no hace falta ir generando un hash por cada contraseña que se crea sino buscar un hash en ese repositorio que coincida con el hash que tenemos, una vez que coincida cogemos la combinación de caracteres y la utilizamos.
+Un hash puede ser generado por varias combinaciones por lo que no necesitamos ni saber que contraseña es la original solo queremos saber la combinación de caracteres que aplicándole el algoritmo de cifrado correcto devuelva el mismo hash que tenemos.
+
+Hay varias rainbow tables en Internet pero también podemos generar una rainbow table usando `rtgen` que viene con Kali Linux.
+Una vez que tenemos una rainbow table podemos usar `rcrack` pasandole el fichero de contraseñas y la rainbow table e intentará conseguir la contraseña correcta.
+
+
 [Volver al inicio](./../../README.md)
