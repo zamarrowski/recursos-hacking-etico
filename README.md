@@ -6,7 +6,7 @@
 
 👋👋 ¡Hola! Estos son mis apuntes para la certificación de [Ethical Hacker de Eccouncil](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/). He intentado estructurarlos de la mejor manera posible para que sean de utilidad a todas las personas que quieren iniciarse en la ciberseguridad 🖤.
 
-Es un repositorio abierto y que cualquiera puede poner un PR para mejorarlo, corregir faltas de ortografía o añadir contenido que pueda ser útil. Al final, de eso se trata de que entre todos compartamos conocimiento y nos ayudemos los unos a los otros. Espero que les guste ❤️ y cualquier cosa me podéis comentar por [Twitter](https://twitter.com/zamarrowski) 😁.
+Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregir faltas de ortografía o añadir contenido que pueda ser útil. Al final, de eso se trata de que entre todos compartamos conocimiento y nos ayudemos los unos a los otros. Espero que les guste ❤️ y cualquier cosa me podéis comentar por [Twitter](https://twitter.com/zamarrowski) 😁.
 
 ## Indice
 
@@ -34,3 +34,4 @@ Es un repositorio abierto y que cualquiera puede poner un PR para mejorarlo, cor
 9. Escaneando redes
     1. [Encontrar máquinas en una red](./resources/escaneoRedes/pingsweeps.md)
     2. [Escaneo de puertos](./resources/escaneoRedes/portScanning.md)
+    3. [Escaneo de vulnerabilidades](./resources/escaneoRedes/vulnerabilidades.md)
