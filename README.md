@@ -35,3 +35,4 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
     1. [Encontrar máquinas en una red](./resources/escaneoRedes/pingsweeps.md)
     2. [Escaneo de puertos](./resources/escaneoRedes/portScanning.md)
     3. [Escaneo de vulnerabilidades](./resources/escaneoRedes/vulnerabilidades.md)
+    4. [Técnicas de evasión](./resources/escaneoRedes/evasion.md)
