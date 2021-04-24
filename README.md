@@ -37,3 +37,7 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
     3. [Escaneo de vulnerabilidades](./resources/escaneoRedes/vulnerabilidades.md)
     4. [Técnicas de evasión](./resources/escaneoRedes/evasion.md)
 10. [Enumeración web](./resources/enumeracion.md)
+11. Hacking de sistemas
+    1. [¿Dónde buscar exploits?](./resources/hackingDeSistemas/exploits.md)
+    1. [Dónde buscar contraseñas]()
+    1. [Cracking de contraseñas]()
