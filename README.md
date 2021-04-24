@@ -40,5 +40,5 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
 11. Hacking de sistemas
     1. [¿Dónde buscar exploits?](./resources/hackingDeSistemas/exploits.md)
     2. [Explotando una vulnerabilidad](./resources/hackingDeSistemas/explotando.md)
-    1. [Dónde buscar contraseñas]()
+    1. [¿Dónde buscar contraseñas?](./resources/hackingDeSistemas/obteniendoPasswords.md)
     1. [Cracking de contraseñas]()
