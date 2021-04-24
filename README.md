@@ -1,5 +1,6 @@
 # Recursos de Hacking Ético
 
+![portada](./img/portada.jpeg)
 ## Indice
 
 1. [Terminología importante](./resources/terminologia.md)
