@@ -2,21 +2,32 @@
 
 ![portada](./img/portada.jpeg)
 
+[![Generic badge](https://img.shields.io/badge/status-in%20progress-green.svg)](https://shields.io/)
+
 ## Introducción
 
 👋👋 ¡Hola! Estos son mis apuntes para la certificación de [Ethical Hacker de Eccouncil](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/). He intentado estructurarlos de la mejor manera posible para que sean de utilidad a todas las personas que quieren iniciarse en la ciberseguridad 🖤.
 
 Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregir faltas de ortografía o añadir contenido que pueda ser útil. Al final, de eso se trata de que entre todos compartamos conocimiento y nos ayudemos los unos a los otros. Espero que les guste ❤️ y cualquier cosa me podéis comentar por [Twitter](https://twitter.com/zamarrowski) 😁.
 
-## Indice
+ℹ️ Si hay algún termino que no conoces hay un punto que se llama [Terminología](./resources/terminologia.md) donde seguramente lo puedes encontrar. Si no está ahí puedes abrir una issue en el repositorio para que lo añada
 
-1. [Terminología importante](./resources/terminologia.md)
-2. [¿De qué va eso de Ethical Hacker?](./resources/ethicalHacker.md)
-3. [Metodologías de seguridad](./resources/metodologias.md)
-4. Conceptos básicos de redes:
+❗ El repositorio está en incompleto todavía. Los puntos que no tienen link es debido a que todavía no he añadido los apuntes que tengo.
+
+🛣️ Roadmap:
+
+- [ ] Completar los puntos que faltan
+- [ ] Añadir preguntas de tipo test por cada sección
+- [ ] Añadir sección de respuestas a los tests
+
+## Índice
+
+1. [¿De qué va eso de Ethical Hacker?](./resources/ethicalHacker.md)
+2. [Metodologías de seguridad](./resources/metodologias.md)
+3. Conceptos básicos de redes:
     1. [Modelos de comunicación](./resources/redes/modelos.md)
     2. [Topologías](./resources/redes/topologias.md)
-5. Conceptos básicos de seguridad:
+4. Conceptos básicos de seguridad:
     1. [La tríada](./resources/seguridad/triada.md)
     2. [Defense in Depth y Defense in Breadth](./resources/seguridad/defense.md)
 5. [Principales dispositivos de seguridad](./resources/dispositivosDeSeguridad.md)
@@ -43,4 +54,9 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
     1. [¿Dónde buscar contraseñas?](./resources/hackingDeSistemas/obteniendoPasswords.md)
     1. [Cracking de contraseñas](./resources/hackingDeSistemas/cracking.md)
 12. [Sniffing](./resources/sniffing.md)
-12. [ARP Spoofing](./resources/arpspoofing.md)
+13. [ARP Spoofing](./resources/arpspoofing.md)
+14. Ingeniería social
+15. Seguridad de redes WiFi
+16. Ataques de aplicaciones web
+17. Criptografía
+18. [Terminología importante](./resources/terminologia.md)
