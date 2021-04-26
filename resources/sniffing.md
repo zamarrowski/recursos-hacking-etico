@@ -14,11 +14,5 @@ Es una aplicación con interfaz gráfica que nos permite obtener los paquetes de
 
 ![wireshark](./../img/wireshark.png)
 
-### ARP Spoofing
-
-Un ataque de ARP Spoofing se trata de intentar suplantar la identidad de otro dispositivo de la red para obtener los paquetes que envía un dispositivo. Por ejemplo, si nos hacemos pasar por la puerta de enlace de una red podríamos monitorizar las peticiones que hace a internet uno de los dispositivos de la red. Para ello existe la herramienta Ettercap que nos facilita esta tarea y además tiene interfaz gráfica.
-
-
-
 
 [Volver al inicio](./../README.md)
