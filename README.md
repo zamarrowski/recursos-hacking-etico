@@ -58,7 +58,7 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
 14. Ingeniería social
     1. [Introducción](./resources/ingenieriaSocial/intro.md)
     2. [Ingeniería social física](./resources/ingenieriaSocial/fisica.md)
-    3. [Ataques web](./resources/ingenieriaSocial/ataquesWeb.md)
+    3. [Ataques web y wireless social engineering](./resources/ingenieriaSocial/ataquesWeb.md)
 15. Seguridad de redes WiFi
 16. Ataques de aplicaciones web
 17. Criptografía
