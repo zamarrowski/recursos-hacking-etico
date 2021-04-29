@@ -2,7 +2,7 @@
 
 ## Cracking de contraseñas
 
-En la sección anterior vimos como obtener un listado de usuario y sus contraseñas pero las contraseñas realmente son hashes y esos hashes no los podemos utilizar para conectarnos a una máquina. Necesitamos el valor que hace generar ese hash. Para ello hay una herramienta muy utilizada llamada John the Ripper que nos puede ayudar a conseguir el valor.
+En la sección anterior vimos cómo obtener un listado de usuarios y sus contraseñas pero las contraseñas realmente son hashes y esos hashes no los podemos utilizar para conectarnos a una máquina. Necesitamos el valor que hace generar ese hash. Para ello hay una herramienta muy utilizada llamada John the Ripper que nos puede ayudar a conseguir el valor.
 
 ### John the Ripper
 
@@ -90,7 +90,7 @@ proftpd:x:113:65534::/var/run/proftpd:/bin/false
 statd:x:114:65534::/var/lib/nfs:/bin/false
 ```
 
-Una vez que tenemos los dos ficheros tenemos que hacer un proceso que va a indicar a John que cifrado se usa en cada contraseña y eso se llama `unshadow`. Una vez que tengamos guardado el contenido de los dos ficheros en nuestra máquina podemos ejecutar:
+Una vez que tenemos los dos ficheros tenemos que hacer un proceso que va a indicar a John qué cifrado se usa en cada contraseña y eso se llama `unshadow`. Una vez que tengamos guardado el contenido de los dos ficheros en nuestra máquina podemos ejecutar:
 
 ```sh
 $ unshadow passwords.txt shadow.txt > unshadowed.txt
@@ -116,12 +116,11 @@ Si nos fijamos ahí tenemos 6 contraseñas que ha conseguido descifrar John y po
 ### Usar rainbow tables
 
 Usar John the Ripper realmente es muy costoso ya que por cada contraseña que se prueba tiene que generar un hash y ver si es igual que el de la contraseña que hay. El coste de procesamiento es muy alto y podría tardar muchísimo tiempo.
-Para esto hay una solución que aunque no es tan costoso en cuanto a procesamiento si lo es en cuanto a almacenamiento y se llaman rainbow tables o tabla arco iris en castellano.
-Una tabla arco iris es un enorme repositorio de hashes con contraseñas ya cifradas. De esta forma no hace falta ir generando un hash por cada contraseña que se crea sino buscar un hash en ese repositorio que coincida con el hash que tenemos, una vez que coincida cogemos la combinación de caracteres y la utilizamos.
-Un hash puede ser generado por varias combinaciones por lo que no necesitamos ni saber que contraseña es la original solo queremos saber la combinación de caracteres que aplicándole el algoritmo de cifrado correcto devuelva el mismo hash que tenemos.
+Para esto hay una solución que aunque no es tan costosa en cuanto a procesamiento si lo es en cuanto a almacenamiento y se llama "rainbow tables" o tabla arcoíris, en castellano.
+Una tabla arcoíris es un enorme repositorio de hashes con contraseñas ya cifradas. De esta forma no hace falta ir generando un hash por cada contraseña que se crea sino buscar un hash en ese repositorio que coincida con el hash que tenemos; una vez que coincida cogemos la combinación de caracteres y la utilizamos.
+Un hash puede ser generado por varias combinaciones por lo que no necesitamos ni saber qué contraseña es la original, solo queremos saber la combinación de caracteres que aplicándole el algoritmo de cifrado correcto devuelva el mismo hash que tenemos.
 
-Hay varias rainbow tables en Internet pero también podemos generar una rainbow table usando `rtgen` que viene con Kali Linux.
-Una vez que tenemos una rainbow table podemos usar `rcrack` pasandole el fichero de contraseñas y la rainbow table e intentará conseguir la contraseña correcta.
-
+Hay varias rainbow tables en Internet, pero también podemos generar una rainbow table usando `rtgen` que viene con Kali Linux.
+Una vez que tenemos una rainbow table podemos usar `rcrack` pasándole el fichero de contraseñas a la rainbow table e intentará conseguir la contraseña correcta.
 
 [Volver al inicio](./../../README.md)

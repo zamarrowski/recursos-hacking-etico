@@ -1,13 +1,13 @@
 # Recursos de Hacking Ético
 
-## 6.1 Whois y host
+## 8.1 Whois y host
 
 Es muy importante obtener información sobre los activos que vamos a hacer un test de intrusión y lo primero que tendríamos que hacer es saber sobre lo que vamos a hacer ese test.
 Para ello hay varios comandos que nos van a facilitar la vida. El primero de ellos es whois.
 
 ### Whois
 
-Básicamente es un protocolo muy usado para obtener datos de un dominio o una IP. Cuando ejecutamos este comando estamos haciendo una petición sobre los principales registradores de dominios para que nos den cierta información a nivel general sobre de quien es ese dominio.
+Básicamente es un protocolo muy usado para obtener datos de un dominio o una IP. Cuando ejecutamos este comando estamos haciendo una petición sobre los principales registradores de dominios para que nos den cierta información a nivel general sobre de quién es ese dominio.
 
 Es muy fácil de usar y podemos probarlo con cualquier dominio:
 
@@ -36,6 +36,6 @@ villanuevadelatorre.es mail is handled by 1 aspmx.l.google.com.
 villanuevadelatorre.es mail is handled by 10 aspmx2.googlemail.com.
 ```
 
-Aquí ya podemos ver sobre que IP está montando el sitio web. Si hacemos el whois sobre esa IP podremos obtener información adicional e incluso veremos que hosting está utilizando.
+Aquí ya podemos ver sobre qué IP está montando el sitio web. Si hacemos el whois sobre esa IP podremos obtener información adicional e incluso veremos qué hosting está utilizando.
 
 [Volver al inicio](./../../README.md)

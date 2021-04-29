@@ -1,10 +1,10 @@
 # Recursos de Hacking Ético
 
-## 2. Principales dispositivos de seguridad
+## 5. Principales dispositivos de seguridad
 
 ### Firewall
 
-Básicamente es un software o firewall que divide dos redes para proteger una una red protegida de una red no protegida y pública. Tienen la capacidad de monitorizar y filtar el tráfico entrante y saliente para prevenir el acceso a la red protegida
+Básicamente es un software o firewall que divide dos redes para proteger una red protegida de una red no protegida y pública. Tienen la capacidad de monitorizar y filtar el tráfico entrante y saliente para prevenir el acceso a la red protegida.
 
 ### Red desmilitarizada (DMZ)
 
@@ -16,7 +16,7 @@ Un atacante podría entrar por el punto rojo (Internet) y solo podría acceder a
 
 ### Honeypot
 
-Es un equipo desplegado en una red y el cual es bastante vulnerable. Funciona a modo de cebo para que el atacante empiece por ese equipo ya que es bastante vulnerable y así conseguirle hacer perder tiempo para que nosotros podamos identificar al atacante, ver que intenciones tiene, etc...
+Es un equipo desplegado en una red y el cual es bastante vulnerable. Funciona a modo de cebo para que el atacante empiece por ese equipo ya que es bastante vulnerable y así conseguirle hacer perder tiempo para que nosotros podamos identificar al atacante, ver qué intenciones tiene, etc...
 
 ![honeypot](./../img/honeypot.png)
 

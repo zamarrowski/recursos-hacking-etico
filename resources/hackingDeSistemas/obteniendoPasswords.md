@@ -2,7 +2,7 @@
 
 ## ¿Dónde buscar contraseñas?
 
-Una vez que obtenemos acceso a un sistema una de la información más sensible son las contraseñas. En Linux podemos encontrar en `/etc/shadow` por lo que si hacemos un `cat` a ese fichero obtendremos algo parecido a esto:
+Una vez que obtenemos acceso a un sistema una de la información más sensible son las contraseñas. En Linux podemos encontrarlas en `/etc/shadow`, por lo que si hacemos un `cat` a ese fichero obtendremos algo parecido a esto:
 
 ```sh
 cat /etc/shadow
@@ -44,7 +44,6 @@ proftpd:!:14727:0:99999:7:::
 statd:*:15474:0:99999:7:::
 ```
 
-Como vemos las passwords no se ven en texto plano pero podemos usar algún programa para intentar crackearlas. Esto está en la siguiente sección.
-
+Como vemos, las passwords no se ven en texto plano pero podemos usar algún programa para intentar crackearlas. Esto está en la siguiente sección.
 
 [Volver al inicio](./../../README.md)

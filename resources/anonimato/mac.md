@@ -1,10 +1,10 @@
 # Recursos de Hacking Ético
 
-## 5.4. Cambiando la MAC
+## 7.4 Cambiando la MAC
 
 Aunque la Mac solo es conocida por la red interna en la que estamos es importante saber cambiarla ya que podemos estar realizando una intrusión interna y no queremos que se nos identifique.
 
-Para ver la MAC que tenemos con ejecutar en la terminal `ifconfig` la veríamos:
+Para ver la MAC que tenemos, con ejecutar en la terminal `ifconfig` la veríamos:
 
 ```sh
 ether 08:00:27:ab:08:1c  txqueuelen 1000  (Ethernet)
