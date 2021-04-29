@@ -2,7 +2,7 @@
 
 ## Enumeración web
 
-La enumeración web consiste en ver que directorios están expuestos al publico hay en una aplicación web. Hay muchas herramientas para esto y hay otras que nos dicen los subdominios que puede haber dado un host.
+La enumeración web consiste en ver qué directorios que están expuestos al público existen en una aplicación web. Hay muchas herramientas para esto y hay otras que nos dicen los subdominios que puede haber dado un host.
 
 ### dirb
 
@@ -31,16 +31,16 @@ GENERATED WORDS: 4612
 
 Es un análisis costoso en tiempo ya que va probando palabra por palabra y puede llevar mucho tiempo.
 
-Otra herramienta online que nos puede ayudar a encontrar un subdominio es https://www.nmmapper.com/sys/tools/subdomainfinder/
+Otra herramienta online que nos puede ayudar a encontrar un subdominio es https://www.nmmapper.com/sys/tools/subdomainfinder/.
 
-Simplemente introducimos la url y el se encargará de darnos el resto:
+Simplemente introducimos la url y él se encargará de darnos el resto:
 
 ![subdominios](./../img/subdominios.png)
 
 ### brute_dirs
 
-Es un módulo de metasploit que le indicamos como podría llamarse el directorio y el genera todas las combinaciones posibles y va probando de una en una contra el host que le digamos.
-Para acceder a el tenemos que ejecutar `msfconsole` en la terminal y una vez dentro usar el módulo `use auxiliary/scanner/http/brute_dirs`.
+Es un módulo de metasploit al que le indicamos cómo podría llamarse el directorio y él genera todas las combinaciones posibles y va probando de una en una contra el host que le digamos.
+Para acceder a él tenemos que ejecutar `msfconsole` en la terminal y una vez dentro usar el módulo `use auxiliary/scanner/http/brute_dirs`.
 Si ejecutamos el comando info nos dará la siguiente información:
 ```sh
 Basic options:

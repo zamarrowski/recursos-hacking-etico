@@ -10,7 +10,7 @@
 
 Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregir faltas de ortografía o añadir contenido que pueda ser útil. Al final, de eso se trata de que entre todos compartamos conocimiento y nos ayudemos los unos a los otros. Espero que les guste ❤️ y cualquier cosa me podéis comentar por [Twitter](https://twitter.com/zamarrowski) 😁.
 
-ℹ️ Si hay algún termino que no conoces hay un punto que se llama [Terminología](./resources/terminologia.md) donde seguramente lo puedes encontrar. Si no está ahí puedes abrir una issue en el repositorio para que lo añada
+ℹ️ Si hay algún término que no conoces hay un punto que se llama [Terminología](./resources/terminologia.md) donde seguramente lo puedes encontrar. Si no está ahí puedes abrir una issue en el repositorio para que lo añada.
 
 ❗ El repositorio está en incompleto todavía. Los puntos que no tienen link es debido a que todavía no he añadido los apuntes que tengo.
 

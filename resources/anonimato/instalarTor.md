@@ -1,6 +1,6 @@
 # Recursos de Hacking Ético
 
-## 5.1 Instalando Tor en Kali
+## 7.2 Instalando Tor en Kali
 
 En algunas versiones de Kali viene instalado Tor. Si no fuese así podríamos instalarlo desde la terminal:
 
@@ -20,22 +20,21 @@ Y podemos comprobar su estado con:
 $ service tor status
 ```
 
-Lo normal será tener un puerto (9050) escuchando podemos verlo si ejecutamos:
+Lo normal será tener un puerto (9050) escuchando. Podemos verlo si ejecutamos:
 
 ```sh
 $ netstat -ano | head
 ```
 
-Una vez que sabemos donde está levantado podemos establecer un proxy manual en nuestro navegador para que use ese puerto. En el caso de Firefox deberíamos ir a network settings e indicarle el puerto como se muestra en la siguiente imagen:
+Una vez que sabemos dónde está levantado podemos establecer un proxy manual en nuestro navegador para que use ese puerto. En el caso de Firefox deberíamos ir a network settings e indicarle el puerto como se muestra en la siguiente imagen:
 
 ![firefoxtOR](./../../img/firefoxtor.png)
 
 Para comprobar que todo está correcto podemos usar cualquier servicio de Internet que nos da la IP que tenemos y ver que es distinta a la habitual.
-Si queremos parar el servicio de Tor podemos hacer:
+Si queremos parar el servicio de Tor podemos escribir:
 
 ```sh
 $ service tor stop
 ```
-
 
 [Volver al inicio](./../../README.md)

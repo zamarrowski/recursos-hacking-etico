@@ -1,25 +1,25 @@
 # Recursos de Hacking Ético
 
-## 5.1 Proxies
+## 7.3 Proxies
 
 En Internet hay varios sitios donde podemos encontrar una lista de proxies públicos y gratuitos de los que podemos hacer uso. El problema de usar proxies públicos es que al ser gratis puede darse el caso de que estén sniffando el tráfico que pasa por ese proxy por lo cual no es muy recomendable hacer nada que nos identifique o pasar por ellos información sensible.
 Hay varias formas de usar proxies. Y vamos a verlas en detalle a continuación.
 
 ### Proxy web
 
-Un proxy web es una página web donde podemos indicarle la página web que queremos visitar y a través de su servidor nos da una respuesta y nos la muestra en el navegador. Hay varios de este tipo y solo tendríamos que googlear "free proxy web". Uno de los más famosos es [proxysite](https://www.proxysite.com/).
+Un proxy web es un sitio web donde podemos indicarle el sitio web que queremos visitar y a través de su servidor nos da una respuesta y nos la muestra en el navegador. Hay varios de este tipo y solo tendríamos que googlear "free proxy web". Uno de los más famosos es [proxysite](https://www.proxysite.com/).
 
-Si, por ejemplo, buscamos cualesmiip.com en el buscador que ofrece veremos como nos da una ip totalmente distinta a la nuestra. Además, podemos decirle que servidor queremos utilizar.
+Si, por ejemplo, buscamos cualesmiip.com en el buscador que ofrece veremos como nos da una ip totalmente distinta a la nuestra. Además, podemos decirle qué servidor queremos utilizar.
 
 ### Proxy a través de nuestro navegador
 
-Esta forma ya hemos visto como utilizar y se trataba de indicarle al navegador que proxy tiene que utilizar para poder salir por el.
+Ya hemos visto cómo utilizar esta forma y se trataba de indicarle al navegador qué proxy tiene que utilizar para poder salir por el.
 
 ### Proxychains
 
-Es un software que nos permite que proxy queremos utilizar e incluso nos permite encadenar varios proxies. Lo malo de hacer esto es que si la conexión ya es lenta cuando utilizamos un proxy gratuito puede llegar a ser muy muy lenta cuando encadenamos varios. Es muy útil cuando no queremos establecer un proxy a nivel del sistema y solamente utilizarlo para ciertas aplicaciones.
+Es un software que nos permite indicar qué proxy queremos utilizar e incluso nos permite encadenar varios proxies. Lo malo de hacer esto es que si la conexión ya es lenta cuando utilizamos un proxy gratuito puede llegar a ser muy, muy lenta cuando encadenamos varios. Es muy útil cuando no queremos establecer un proxy a nivel del sistema y solamente queremos utilizarlo para ciertas aplicaciones.
 
-Por defecto, la configuración que viene con proxychains es para utilizarlo con la red Tor pero esto lo podemos cambiar usando el fichero de configuración de proxychains que se encuentra en `etc/proxychains.conf` y contiene la siguiente configuración:
+Por defecto, la configuración que viene con proxychains es para utilizarlo con la red Tor, pero esto lo podemos cambiar usando el fichero de configuración de proxychains que se encuentra en `etc/proxychains.conf` y contiene la siguiente configuración:
 
 ```sh
 # proxychains.conf  VER 4.x
@@ -139,42 +139,40 @@ tcp_connect_time_out 8000
 socks4  127.0.0.1 9050
 ```
 
-En este fichero podemos ver opciones a tener en cuenta como:
+En este fichero podemos ver opciones a tener en cuenta, como:
 
 * **quiet_mode**: básicamente si está comentado, como es el caso, indica que se va a ejecutar en modo verboso. Es útil para ver todas las trazas por si ocurre algún error.
 * **proxy_dns**: si está desactivado la resolución de las DNS se hará a través de nuestro equipo y no a través del proxy. Esto es peligroso ya que se podría relacionar las resoluciones de dns con el resto de peticiones y perder el anonimato.
 * **ProxyList**: aquí es donde vamos a indicar la lista de proxies o el proxy que queremos usar. Cada línea que pongamos son los proxies que va a usar cuando se haga la petición.
 
-Una de las páginas más populares para encontrar proxies gratuitos es https://spys.one/en/ en ella podemos encontrar un listado donde nos indica el país, la velocidad, la ip, el puerto, etc...
+Uno de los sitios web más populares para encontrar proxies gratuitos es https://spys.one/en/. En ella podemos encontrar un listado donde nos indica el país, la velocidad, la ip, el puerto, etc...
 
-Para usarlo simplemente tenemos que llamar a proxychains delante del comando que queramos ejecutar. En la imagen que vemos a continuación vemos como se hace un curl para saber cual es la IP y nos devuelve nuestra IP para después llamarlo con proxychains y teniendo levantador Tor, lo usa como proxy y por eso nos devuelve otra IP. Eso quiere decir que está funcionando correctamente y que está pasando por el proxy:
+Para usarlo simplemente tenemos que llamar a proxychains delante del comando que queramos ejecutar. En la imagen que vemos a continuación vemos cómo se hace un curl para saber cuál es la IP y nos devuelve nuestra IP para después llamarlo con proxychains y teniendo levantador Tor, lo usa como proxy y por eso nos devuelve otra IP. Eso quiere decir que está funcionando correctamente y que está pasando por el proxy:
 
 ![proxyChainsUse](./../../img/proxychainsUse.png)
 
-Para usarlo con otro proxy o encadenar varios vale con coger cualquier proxy de la página web free-proxy y editar el archivo de configuración. Lo primero que vamos a hacer es mandar el tráfico por la web Tor para después salir por un proxy http público. La configuración quedaría así:
+Para usarlo con otro proxy o encadenar varios vale con coger cualquier proxy del sitio web free-proxy y editar el archivo de configuración. Lo primero que vamos a hacer es mandar el tráfico por la web Tor para después salir por un proxy http público. La configuración quedaría así:
 
 ![proxyChainsUse](./../../img/proxyChainsConf.png)
 
-Y si nos fijamos en los logs vemos como está pasando primero por Tor y después por el proxy público:
+Y si nos fijamos en los logs vemos cómo está pasando primero por Tor y después por el proxy público:
 
 ![proxyChainsUse](./../../img/proxyChainTorPublic.png)
 
-Con esto conseguiríamos un nivel de anonimato bastante alto y es bastante sencillo de utilizar
+Con esto conseguiríamos un nivel de anonimato bastante alto y es bastante sencillo de utilizar.
 
 ### Plugin para Firefox
 
-Existe varios plugins para el navegador que nos permiten de una manera más sencilla el indicar si queremos usar un proxy u otro. Esto nos ahorra tener que ir a las preferencias del navegador y estar cambiandolo a mano. Uno de los más famosos es FoxyProxy y lo podemos encontrar en el buscador de addons de Firefox:
+Existen varios plugins para el navegador que nos permiten de una manera más sencilla indicar si queremos usar un proxy u otro. Esto nos ahorra tener que ir a las preferencias del navegador y estar cambiándolo a mano. Uno de los más famosos es FoxyProxy y lo podemos encontrar en el buscador de addons de Firefox:
 
 ![firefoxyproxyaddon](./../../img/firefoxyproxy.png)
 
-Una vez que lo instalamos nos saldrá arriba a la derecha el icono del addon y podemos clickar en options para poder añadir un nuevo proxy. En mi caso voy a añadir un proxy para que salga por Tor:
+Una vez que lo instalamos nos saldrá arriba a la derecha el icono del addon y podemos hacer clic en options para poder añadir un nuevo proxy. En mi caso voy a añadir un proxy para que salga por Tor:
 
 ![foxyproxytor](./../../img/foxyproxytor.png)
 
-Después para indicarle que lo queremos utilizar si clickamos en el icono del addon podemos cambiar entre los que tenemos creados y automáticamente nos cambiará de proxy:
+Después para indicarle que lo queremos utilizar si hacemos clic en el icono del addon podemos cambiar entre los que tenemos creados y automáticamente nos cambiará de proxy:
 
 ![foxyproxychange](./../../img/foxyproxychange.png)
-
-
 
 [Volver al inicio](./../../README.md)

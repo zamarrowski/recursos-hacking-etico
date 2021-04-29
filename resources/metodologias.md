@@ -1,8 +1,8 @@
 # Recursos de Hacking Ético
 
-## 3. Metodologías de seguridad
+## 2. Metodologías de seguridad
 
-Es una serie de pruebas a realizar en un orden específico cuando se realiza algún tipo de pruebas seguridad
+Es una serie de pruebas a realizar en un orden específico cuando se realiza algún tipo de prueba de seguridad.
 
 ### OWASP
 
