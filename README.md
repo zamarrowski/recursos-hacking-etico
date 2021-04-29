@@ -61,7 +61,7 @@ Es un repositorio abierto y cualquiera puede poner un PR para mejorarlo, corregi
     3. [Ataques web y wireless social engineering](./resources/ingenieriaSocial/ataquesWeb.md)
 15. Seguridad de redes inalámbricas
     1. [Redes Wi-Fi y como funcionan](./resources/redesInalambricas/wifi.md)
-    2. Cifrado Wi-Fi
+    2. [Cifrado Wi-Fi](./resources/redesInalambricas/cifradoWifi.md)
     3. Ataques Wi-Fi
     4. Bluetooth
 16. Ataques de aplicaciones web
