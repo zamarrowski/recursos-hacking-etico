@@ -1,6 +1,6 @@
 # Recursos de Hacking Ético
 
-## Redes inalambricas: cifrado Wi-Fi
+## Redes inalámbricas: cifrado Wi-Fi
 
 Ya que los datos se transmiten por el aire los datos son más sensibles a ser interceptados por eso desde que las redes Wi-Fi se empezaron a usar para uso comercial se ha puesto mucho incapié en que sean seguras y los datos vayan cifrados para conservar la privacidad.
 

@@ -1,6 +1,6 @@
 # Recursos de Hacking Ético
 
-## Redes inalambricas: Wi-Fi
+## Redes inalámbricas: Wi-Fi
 
 ### Tipos de redes Wi-Fi
 
